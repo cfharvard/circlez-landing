@@ -11,6 +11,7 @@ const NavBar = () => {
             <Link className='mr-10 bg-black inter' to="/work">Our Work</Link>
             <Link className='mr-10 bg-black inter' to="/team">Team</Link>
             <Link className='mr-10 bg-black inter' to="/contact">Contact</Link>
+            <Link className='mr-10 bg-black inter' to="/board">Board</Link>
             <Link className='mr-10 bg-black inter' to="/blog">Blog</Link>
             {/* <Link className='bg-black geo p-4 border-white border-2 rounded-3xl' to="/login">Waitlist</Link> */}
             </div>

@@ -3,6 +3,7 @@ import { Link, Element, animateScroll as scroll } from 'react-scroll';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
+import Board from './components/Board';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
@@ -154,6 +155,18 @@ function App() {
                   <li>
                     <Link
                       className="hover:text-blue-400 text-md md:text-lg hover:cursor-pointer"
+                      to="board"
+                      smooth={true}
+                      offset={-50}
+                      duration={500}
+                      onClick={closeBlog}
+                    >
+                      Advisory Board
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="hover:text-blue-400 text-md md:text-lg hover:cursor-pointer"
                       to="contact"
                       smooth={true}
                       offset={-50}
@@ -243,6 +256,19 @@ function App() {
                 >
                   Team
                 </Link>
+                <Link
+                  className="block px-4 py-2 hover:bg-blue-400 hover:text-black"
+                  to="board"
+                  smooth={true}
+                  offset={-50}
+                  duration={500}
+                  onClick={() => {
+                    toggleMenu();
+                    closeBlog();
+                  }}
+                >
+                  Advisory Board
+                </Link>
               </li>
               <li>
                 <Link
@@ -298,6 +324,9 @@ function App() {
         </Element>
         <Element name="team" className="section">
           <Team />
+        </Element>
+        <Element name="board" className="section">
+          <Board />
         </Element>
         <Element name="contact" className="section">
           <Contact />
