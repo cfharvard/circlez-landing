@@ -4,7 +4,7 @@ import Aiden from '../static/IMG_2728.jpg';
 import Sydney from '../static/IMG_4016.jpg';
 import Joseph from '../static/Joseph.png';
 import Chris from '../static/chris_picture.jpg'
-
+import Rushil from '../static/Rushil-HeadShot.jpeg'
 const Team = () => {
   return (
     <div className="text-white min-h-screen bg-black b">
@@ -43,6 +43,16 @@ const Team = () => {
                 He is passionate about using tech as a wide net as many people as possible. To him, Circlez fulfills that mission 
                 by providing a platform where people can not only improve themselves but also help others do the same. In his free time, 
                 Chris enjoys cooking, listening to music, and going on long walks.
+              </p>
+          </div>
+          </div>
+          <div className="bg-zinc-900 rounded-3xl p-8 flex flex-col items-center justify-center shadow-lg shadow-black ml-14 mr-14 md:ml-0 md:mr-0">
+              <img src={Rushil} alt="Rushil" className="rounded-lg mt-10 mb-10 w-2/3" />
+              <p className="font-bold text-xl mb-4 text-white bg-zinc-900 md:inter">Rushil Kagithala - Software Engineer</p>
+              <p className="text-sm text-white bg-zinc-900 md:inter">
+                Rushil is a freshman at Michigan State studying Computer Science with a minor in Computational Mathematics. He loves the field 
+                of technology and is always looking for ways to innovate and create new things. He is excited to be part of Circlez! Outside of school and Circlez, Rushil
+                loves to play tennis and volunteer at his local tennis club.  
               </p>
           </div>
         </div>
