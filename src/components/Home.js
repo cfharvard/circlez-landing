@@ -25,7 +25,7 @@ const Home = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <main className="bg-black w-screen">
+    <main className="bg-black w-screen lg:border-y border-gray-400">
       <p className="text-white text-6xl md:inter font-bold pt-44 text-center "> A <span className='text-indigo-400'> hub </span> for motivation.</p>
       <div className="grid md:grid-cols-1 lg:grid-cols-2 ">
         <div className="mr-10 lg:mr-0 lg:ml-40 lg:pt-20 col-span-1 mb-20 lg:mb-36 pt-16">
@@ -38,7 +38,7 @@ const Home = () => {
           <div className='ml-12 flex justify-center lg:justify-start items-center'>
             {/* App Store button */}
             <a href="https://apps.apple.com/us/app/circlez-shared-goals/id6477159436" target="_blank" rel="noopener noreferrer">
-              <img src={appStoreBadge} alt="Download on the App Store" className="mt-5 md:mt-7" />
+              <img src={appStoreBadge} alt="Download on the App Store" className="mt-5 md:mt-7 lg:h-24" />
             </a>
           </div>
         </div>
