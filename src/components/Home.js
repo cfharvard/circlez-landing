@@ -32,7 +32,7 @@ const Home = () => {
   const handleClose = () => setOpen(false);
 
     return (
-    <main className="bg-black w-screen">
+    <main className="bg-black max-w-full">
     <p className="text-white text-6xl md:inter font-bold pt-44 text-center "> A <span className='text-indigo-400'> hub </span> for motivation.</p>
       <div className="grid md:grid-cols-1 lg:grid-cols-2 ">
         <div className=" mr-10 lg:mr-0 lg:ml-40 lg:pt-20 col-span-1 mb-20 lg:mb-36 pt-16">
