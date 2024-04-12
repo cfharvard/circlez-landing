@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <div className="sticky top-0 z-10 flex bg-black justify-between md:flex pb-5 pt-5 lg:pr-32 border shadow-lg">
+        <div className="sticky top-0 z-10 flex bg-black justify-between md:flex pb-5 pt-5 lg:pr-32 border shadow-lg max-w-full">
         <h1 className="text-center text-white text-4xl ml-5 font-bold background mt-5 mb-5 rob "> Circlez </h1>
         <div className=" hidden md:block text-zinc-500 text-lg bg-black">
             <div className='mt-5 mb-5 bg-black'>
