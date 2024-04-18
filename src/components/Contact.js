@@ -17,6 +17,7 @@ const Contact = () => {
                 <div className="pt-4 m-0 w-fit">
                     <IconButton href="https://instagram.com/circlez_official?igshid=MzRlODBiNWFlZA==" target="_blank" style={{paddingLeft: 0}}><InstagramIcon style={{ color: "#FFF",  fontSize: "50px" }}/></IconButton>
                     <IconButton href="https://www.linkedin.com/company/circlez-llc/" target="_blank" style={{ paddingRight: 0 }}><LinkedInIcon style={{ color: "#FFF", fontSize: "50px" }}/></IconButton>
+
                     {/* <Link to="/Privacy">Privacy Policy</Link> */}
                 </div>
             </div> 
