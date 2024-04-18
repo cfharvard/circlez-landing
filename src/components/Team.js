@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Aiden from '../static/IMG_2728.jpg';
 import Sydney from '../static/IMG_4016.jpg';
 import Joseph from '../static/Joseph.png';
+import Kathy from '../static/Kathy.png';
 import Chris from '../static/chris_picture.jpg'
 import Rushil from '../static/Rushil-HeadShot.jpeg'
 const Team = () => {
@@ -53,6 +54,14 @@ const Team = () => {
                 of technology and is always looking for ways to innovate and create new things. He is excited to be part of Circlez! Outside of school and Circlez, Rushil
                 loves to play tennis and volunteer at his local tennis club.  
               </p>
+          </div>
+          <div className="bg-zinc-900 rounded-3xl p-8 flex flex-col items-center justify-center shadow-lg shadow-black ml-14 mr-14 md:ml-0 md:mr-0">
+            <img src={Kathy} alt="Kathy" className="rounded-lg mt-10 mb-10 w-2/3" />
+            <p className="font-bold text-xl mb-4 text-white bg-zinc-900 md:inter">Kathy Zhong - UI/UX Designer</p>
+            <p className="text-sm text-white bg-zinc-900 md:inter">
+              Kathy is a junior at Harvard College studying Computer Science. She is a product designer who loves combining problem-solving and her love for the arts, 
+              and has recently been leveraging tech and nonprofit work in the social impact space. In her free time, she enjoys music, keeping up with the latest fashion trends, and trying new foods.
+            </p>
           </div>
           </div>
         </div>
