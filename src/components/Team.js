@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import Aiden from '../static/IMG_2728.jpg';
-import Sydney from '../static/IMG_4016.jpg';
+import Sydney from '../static/sydney.png';
 import Joseph from '../static/Joseph.png';
 import Kathy from '../static/Kathy.png';
 import Chris from '../static/chris_picture.jpg'
@@ -21,8 +21,8 @@ const Team = () => {
               </p>
           </div>
 
-          <div className="bg-zinc-900 rounded-3xl p-8 b flex flex-col items-center shadow-lg shadow-black ml-14 mr-14 md:ml-0 md:mr-0">
-              <img src={Aiden} alt="Aiden" className="rounded-lg mb-4 w-1/2 mb-10" />
+          <div className="bg-zinc-900 rounded-3xl p-8 pt-14 b flex flex-col items-center shadow-lg shadow-black ml-14 mr-14 md:ml-0 md:mr-0">
+              <img src={Aiden} alt="Aiden" className="rounded-lg mb-10 w-1/2 mb-10" />
               <p className="font-bold text-xl mb-4 text-white bg-zinc-900 md:inter">Aiden Tahmazian - Co-Founder/COO</p>
               <p className="text-sm text-white bg-zinc-900 md:inter">
                   Aiden is a junior at Rowan University majoring in Mechanical Engineering with a minor in Mathematics. His entrepreneurial passion stems from his parents who came to America to build a new life for themselves. With a passion for design and service, he wanted to create a product that would not only help others but revolutionize an industry as well. To him, Circlez resembles the support system that he, Sydney, and their friends had in grade school, and he wants to share it with others. In his free time, Aiden enjoys reading, playing basketball, tennis, pickleball, and spending time with loved ones.
@@ -43,7 +43,7 @@ const Team = () => {
                 Chris is a junior at Harvard College concentrating in Statistics with a secondary in Computer Science.
                 He is passionate about using tech as a wide net as many people as possible. To him, Circlez fulfills that mission 
                 by providing a platform where people can not only improve themselves but also help others do the same. In his free time, 
-                Chris enjoys cooking, listening to music, and going on long walks.
+                Chris enjoys DJing, cooking, and going on long walks.
               </p>
           </div>
           {/* <div className="bg-zinc-900 rounded-3xl p-8 flex flex-col items-center justify-center shadow-lg shadow-black ml-14 mr-14 md:ml-0 md:mr-0">
