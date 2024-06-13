@@ -6,9 +6,9 @@ import { Typography } from "@mui/material";
 const CoreValues = () => {
     const sentences = [
         'Stay on top of your goals with positive peer support.',
-        'Challenge your friends to achieve their fullest potential.',
-        "Share and track progress to gain insights from your circle's members.",
-        'Build lifelong connections with your friends through shared successes.'
+        'Challenge your employees to achieve their fullest potential.',
+        "Share and track progress to gain insights from your teams' members.",
+        'Build stronger connections with your employees through shared successes.'
     ];
     const defaultSentence = "Hover over an icon above to understand the values we find important.";
 
