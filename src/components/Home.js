@@ -25,38 +25,19 @@ const Home = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <main className="bg-black w-screen lg:border-y border-gray-400">
-      <p className="text-white text-6xl md:inter font-bold pt-44 text-center "> A <span className='text-indigo-400'> hub </span> for motivation.</p>
-      <div className="grid md:grid-cols-1 lg:grid-cols-2 ">
-        <div className="mr-10 lg:mr-0 lg:ml-40 lg:pt-20 col-span-1 mb-20 lg:mb-36 pt-16">
-          <p className="ml-12 text-white text-center lg:text-left lg:mt-24 text-3xl md:text-4xl font-bold">
-            A productivity app helping manufacturing facilities stay motivated and achieve their goals.
-          </p>
-          <p className="ml-12 text-zinc-500 text-center lg:text-left text-2xl mt-5">
-            Limited spots available. Join the waitlist below.
-          </p>
-          <div className='ml-12 flex justify-center lg:justify-start items-center'>
-            {/* App Store button */}
-            <a href="https://forms.gle/RjXZrBvdbAZkfar59" target="_blank" rel="noopener noreferrer" className="ml px-6 py-2 mt-6 bg-indigo-500 text-white rounded font-bold">
-        Join Waitlist
+    <main className="flex flex-col items-center justify-center bg-black w-screen lg:border-y border-gray-400 pb-20 min-h-screen">
+  <div className="flex flex-col items-center align-middle justify-center">
+    <p className="text-white text-6xl md:inter font-bold pt-44 text-center "> OKR  <span className='text-indigo-400'>software </span> for manufacturing managers.</p>
+    <p className="text-zinc-500 text-center lg:text-left text-4xl mt-5">
+        Limited spots available. Join the waitlist below.
+    </p>
+  </div>
+  <div className="flex justify-center">
+    <a href="https://forms.gle/RjXZrBvdbAZkfar59" target="_blank" rel="noopener noreferrer" className="px-10 py-6 mt-8 bg-indigo-500 text-white rounded-lg font-bold text-3xl">
+      Join Waitlist
     </a>
-          </div>
-        </div>
-        <div className="lg:pt-10 md:pb-12 lg:pb-0 flex justify-center flex-col md:flex-row items-center md:col-span-1">
-          <div className='md:-mt-10 md:mr-5 mb-10 '>
-            <img src={home} alt="Circlez logo" className="max-w-full h-auto" />
-          </div>
-          <div className='md:mt-20 mb-10 md:mr-5 '>
-            <img src={lift} alt="Gym Circle" className="max-w-full h-auto" />
-          </div>
-        </div>
-      </div>
-      <Modal open={open} onClose={handleClose}>
-        <Box sx={style}>
-          <Form handleClose={handleClose} />
-        </Box>
-      </Modal>
-    </main>
+  </div>
+</main>
   );
 }
 
