@@ -8,9 +8,9 @@ import Chris from '../static/chris_picture.jpg'
 import Rushil from '../static/Rushil-HeadShot.jpeg'
 const Team = () => {
   return (
-    <div className="text-white min-h-screen bg-black b max-width-100 overflow-x-hidden">
+    <div className="text-white min-h-fit bg-black b max-width-100 overflow-x-hidden">
       {/* <NavBar /> */}
-      <div className="container flex-col justify-center mx-auto md:py-6 bg-black">
+      <div className="container flex-col justify-center mx-auto md:py-0 bg-black">
         <h1 className="text-5xl md:text-6xl mb-12 text-center md:inter font-bold bg-black pt-12">Our Team</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 justify-center bg-black mb-10">
           <div className="bg-zinc-900 rounded-3xl p-8 b flex flex-col items-center justify-center shadow-lg shadow-black ml-14 mr-14 md:ml-0 md:mr-0">
