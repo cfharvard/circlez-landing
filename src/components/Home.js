@@ -30,16 +30,16 @@ const Home = () => {
       <div className="grid md:grid-cols-1 lg:grid-cols-2 ">
         <div className="mr-10 lg:mr-0 lg:ml-40 lg:pt-20 col-span-1 mb-20 lg:mb-36 pt-16">
           <p className="ml-12 text-white text-center lg:text-left lg:mt-24 text-3xl md:text-4xl font-bold">
-            A social productivity app helping young adults achieve their biggest goals.
+            A productivity app helping manufacturing facilities stay motivated and achieve their goals.
           </p>
           <p className="ml-12 text-zinc-500 text-center lg:text-left text-2xl mt-5">
-            Download the app and start achieving your goals today!
+            Limited spots available. Join the waitlist below.
           </p>
           <div className='ml-12 flex justify-center lg:justify-start items-center'>
             {/* App Store button */}
-            <a href="https://apps.apple.com/us/app/circlez-shared-goals/id6477159436" target="_blank" rel="noopener noreferrer">
-              <img src={appStoreBadge} alt="Download on the App Store" className="mt-5 md:mt-7 lg:h-24" />
-            </a>
+            <a href="https://forms.gle/RjXZrBvdbAZkfar59" target="_blank" rel="noopener noreferrer" className="ml px-6 py-2 mt-6 bg-indigo-500 text-white rounded font-bold">
+        Join Waitlist
+    </a>
           </div>
         </div>
         <div className="lg:pt-10 md:pb-12 lg:pb-0 flex justify-center flex-col md:flex-row items-center md:col-span-1">
