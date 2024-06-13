@@ -7,7 +7,7 @@ const CoreValues = () => {
     const sentences = [
         'Stay on top of your goals with positive peer support.',
         'Challenge your employees to achieve their fullest potential.',
-        "Share and track progress to gain insights from your teams' members.",
+        "Track and share progress to gain insights on your team members' performance.",
         'Build stronger connections with your employees through shared successes.'
     ];
     const defaultSentence = "Hover over an icon above to understand the values we find important.";
