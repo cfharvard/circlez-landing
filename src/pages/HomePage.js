@@ -135,7 +135,7 @@ export const HomePage = () => {
                       About
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       className="hover:text-blue-400 text-md md:text-lg hover:cursor-pointer"
                       to="work"
@@ -148,7 +148,7 @@ export const HomePage = () => {
                     >
                       Work
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       className="hover:text-blue-400 text-md md:text-lg hover:cursor-pointer"
@@ -237,7 +237,7 @@ export const HomePage = () => {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   className="block px-4 py-2 hover:bg-blue-400 hover:text-black"
                   to="work"
@@ -251,7 +251,7 @@ export const HomePage = () => {
                 >
                   Work
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   className="block px-4 py-2 hover:bg-blue-400 hover:text-black"
@@ -324,9 +324,9 @@ export const HomePage = () => {
         <Element name="about" className="section">
           <CoreValues />
         </Element>
-        <Element name="work" className="section">
+        {/* <Element name="work" className="section">
           <Work />
-        </Element>
+        </Element> */}
         <Element name="team" className="section">
           <Team />
         </Element>

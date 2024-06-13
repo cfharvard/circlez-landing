@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className='mt-5 mb-5 bg-black'>
             <Link className='mr-10 bg-black inter' to="/">Home</Link>
             <Link className='mr-10 bg-black inter' to="/about">About</Link>
-            <Link className='mr-10 bg-black inter' to="/work">Our Work</Link>
+            {/* <Link className='mr-10 bg-black inter' to="/work">Our Work</Link> */}
             <Link className='mr-10 bg-black inter' to="/team">Team</Link>
             <Link className='mr-10 bg-black inter' to="/contact">Contact</Link>
             <Link className='mr-10 bg-black inter' to="/blog">Blog</Link>
@@ -19,7 +19,7 @@ const NavBar = () => {
         <div className="block md:hidden text-center mt-3 mb-3">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/work">Our Work</Link>
+            {/* <Link to="/work">Our Work</Link> */}
             <Link to="/team">Team</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/blog">Blog</Link>
